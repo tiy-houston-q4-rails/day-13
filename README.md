@@ -15,7 +15,8 @@ Use MiniTest to create a Currency and CurrencyConverter class.
 
 Example usage
 
+
 ```ruby
-CurrencyConverter.new(15, Dollar => Euro)
+CurrencyConverter.new(15, :dollar => :euro)
 => 11.82 Euro
 ```
